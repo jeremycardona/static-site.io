@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../_sass/main.scss"],"names":[],"mappings":"AAAA;EAEI;;;AAEJ;EACI;EACA","sourcesContent":[".current \r\n{\r\n    color: rgb(65, 203, 145);\r\n}\r\nbody {\r\n    background: rgb(22, 73, 64);\r\n    color: white;\r\n}"],"file":"styles.css"}

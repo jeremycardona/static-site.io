@@ -1,0 +1,22 @@
+---
+layout: default
+title: Jekyll Blog
+subtitle: deja ver si esta mierda funciona
+date: el dia de hoy pape
+navigation: la mierda esaa
+---
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <h1>{{ page.title | downcase }}</h1>
+    <h2>{{ page.subtitle}}</h2>
+    <p>{{ page.date }}</p>
+    {% for staff_member in site.staff_members %}
+  <h2>{{ staff_member.name }} - {{ staff_member.position }}</h2>
+  <p>{{ staff_member.content | markdownify }}</p>
+{% endfor %}
+</body>
+</html>
